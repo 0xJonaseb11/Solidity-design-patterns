@@ -9,4 +9,25 @@ contract LibraryManagementControl {
         owner = msg.sender;
     }
 
+    function appointLibrarian(address _libAddress) public onlyOwner {
+        librarian = _libAddress;
+    }
+
+    modifier onlyLibrarian {
+        require(msg.sender == librarian);
+        _;
+    }
+
+    modifier onlyOwner {
+        require(msg.sender == owner);
+        _;
+    }
+
+    modifier authorised {
+        require(msg.sender == owner || msg.sender == librarian);
+        _;
+    }
+
+    function
+
 }
