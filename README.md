@@ -9,6 +9,11 @@
 #### 4. Factory creation pattern
 #### 5. Iterable map pattern
 
+### Note:
+#### There are many design patterns. These are just a few of them discussed in this work of mine..
+
+##### Lemme hope this helped
+
 <hr>
 
 ### @Jonas-sebera
