@@ -11,5 +11,27 @@ contract MerchantBank {
 
     modifier onlyOwner {
         require(msg.sender == owner);
+        _;
     }
+
+    modifier isPaused {
+        require(paused, "Bank services are paused");
+        _;
+    }
+
+    modifier notPaused {
+        require(!paused, "It is paused");
+        _;
+    }
+    
+    //setters
+    function pauseContract() public onlyOwner notPaused {
+        paused = true;
+    }
+
+    function unPauseContract() public onlyOwner isPaused {
+        paused = false;
+    }
+
+    function depositEther
 }
