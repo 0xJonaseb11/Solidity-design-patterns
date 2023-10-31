@@ -13,3 +13,16 @@ contract OTokenFactory {
     } 
 }
 
+contract OToken {
+    address public asset;
+    address public collateral;
+    address public strikePrice;
+    uint256 public expiry;
+
+    constructor(address _asset, address _collateral, uint256 _expiry, address _strikePrice) {
+        asset = _asset;
+        collateral = _collateral;
+        strikePrice = _strikePrice;
+        expiry = _expiry;
+    }
+}
