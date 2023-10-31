@@ -28,6 +28,8 @@ contract LibraryManagementControl {
         _;
     }
 
-    function
+    function setUpLibrary() public onlyLibrarian {
+        //code to setup a library
+    }
 
 }
