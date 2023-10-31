@@ -34,6 +34,10 @@ contract MerchantBank {
     }
 
     function depositEther() public isPaused {
+       // logic to deposit ether into the contract
+    }
+
+    function emergencyWithdrawal() public isPaused {
         // transfer ether out fast before more damage is done
         owner.transfer(address(this).balance);
     }

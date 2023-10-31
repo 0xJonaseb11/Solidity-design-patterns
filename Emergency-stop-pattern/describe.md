@@ -13,3 +13,6 @@ The contract also has an `emergencyWithdrawal` function that can be triggered by
 #### You want the ability to pause the contract as a result of unwanted situation
 #### In cas of failure, you want the ability to stop state corruption
 #### You are a centralized entity
+
+
+### @Jonas-sebera
