@@ -1,19 +1,24 @@
-### Author: @Jonas-sebera
-## This repo specifies the major design patterns in a solidity patterns.
+ _**Author: @Jaz-3-0**_
+
+ **This repo specifies the major design patterns in a solidity patterns.*
 
 # About
-## DESIGN PATTERNS COVERED:
-#### 1. Withdraw-pattern 
-#### 2. Access restriction pattern
-#### 3. Emergency stop pattern
-#### 4. Factory creation pattern
-#### 5. Iterable map pattern
+_What exactly is a design pattern in software engineering??_
 
-### Note:
-#### There are many design patterns. These are just a few of them discussed in this work of mine..
 
-##### Lemme hope this helped
+_**DESIGN PATTERNS COVERED**_
 
-<hr>
+ 1. Withdraw-pattern
+ 2. Access restriction pattern
+ 3. Emergency stop pattern
+ 4. Factory creation pattern
+ 5. Iterable map pattern
 
-### @Jonas-sebera
+**Note:**
+**There are many design patterns. These are just a few of them discussed in this work of mine..**
+
+_**Let me hope this helped**_
+
+-----------
+
+@Jaz-3-0
