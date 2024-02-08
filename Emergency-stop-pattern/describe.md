@@ -1,5 +1,5 @@
 
-**About**
+# About
 
  This pattern incorporates the ability to pause all functions execution in the contract in the case of something going wrong. Since contracts are immutable once deployed; if there are bugs in the contract the `pause` functionality can be activated to prevent further damage caused.
 

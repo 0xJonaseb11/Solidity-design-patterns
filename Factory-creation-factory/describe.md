@@ -18,4 +18,4 @@ Is an address, that is stored in an array of addresses that depicts the address 
 
 ### When to use
 
-_- You need a new contract for each request._
+- _You need a new contract for each request._
