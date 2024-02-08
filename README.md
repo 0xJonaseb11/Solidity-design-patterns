@@ -1,6 +1,7 @@
- _**Author: @Jaz-3-0**_
 
- **This repo specifies the major design patterns in a solidity patterns.**
+_**Author: @Jaz-3-0**_
+
+ **This repo specifies the major solidity design patterns.**
 
 # About
 
